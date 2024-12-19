@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - DevFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">DevFolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><br>Accueil</a></li>
+          <li><a href="#about">Présentation</a></li>
+          <li><a href="#services">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#cv">Mon CV</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-img.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Je suis Yaya Niaré</h2>
+        <p><span class="typed" data-typed-items="Étudiant en informatique et génie logiciel"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- CV Section -->
+     <section id="cv" class="lien">
+      <a href="assets/img/CV_COOP2_Final.pdf" download="moncv">Télecharger mon CV
+        <img src="icone.svg" alt="">
+      </a>
+      
+     </section>
+     <style>
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      .lien{
+        display: flex;
+        margin: auto;
+        border-radius: 5px;
+        font-size: 30px;
+        width: fit-content;
+        color: white;
+        padding: 15px;
+        /*fit content permet a notre boite douvrir la même taille que le contenu*/
+        background-color: rgba(235, 13,57, 959);
+      }
+      .lien:hover{
+        background-color: rgb(6, 189, 255)
+
+      }
+      img{
+        margin-left: 15px;
+        
+      }
+     </style> <!-- End CV Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/received_232452242396529.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Yaya Niaré</span></p>
+                <p><strong>Profile: </strong> <span>Ingénieur logiciel en devenir</span></p>
+                <p><strong>Email: </strong> <span>yaya22niare11@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>(438) 928-1172</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+              <div class="progress">
+                <span class="skill"><span>Java</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Python</span> <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>SQL</span> <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>Présentation</h4>
+              <p>
+                Actuellement étudiant en baccalauréat en informatique et génie logiciel, je suis attiré par deux domaines clés pour l’avenir : la cybersécurité et l’intelligence artificielle.
+              </p>
+              <p>
+                Mes projets personnels, principalement axés sur le développement logiciel et web, m’ont permis de renforcer mes compétences 
+                techniques et de cultiver une approche rigoureuse de la résolution de problèmes. Ces expériences pratiques alimentent ma réflexion 
+                sur la spécialisation que je souhaite poursuivre : contribuer à la sécurité des systèmes ou explorer le potentiel transformateur des technologies intelligentes.
+              </p>
+              <p>
+                Porté par une passion pour l’innovation et une curiosité constante, je m’engage à façonner un avenir numérique à la fois sécurisé et inspirant.
+              </p>
+              <p>
+                Envie d’en savoir plus ou de collaborer ? Explorez ce site et téléchargez mon CV pour découvrir mes projets et mes expériences !
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Parcours</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h3>Baccalauréat informatique et génie logiciel (Bac+3)</h3>
+              <h4><em>Université du Quebec à Montréal</em></h4>
+              <h5>2022 - 2025</h5>
+              <p>Programme d'études axé sur le developpement logiel.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h3>Baccalauréat en sciences mathématiques</h3>
+              <h4><em>Institutions Sainte-Marie de Conakry</em></h4>
+              <h5>2018 - 2021</h5>
+              <p>Programme d'études axé sur les filiaires scientifiques. </p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h3>Assistant professeur</h3>
+              <h4><em>Université du Quebec à Montréal – Montreal, Quebec </em></h4>
+              <h5>2023</h5>
+              <ul>
+                <li>Faire des exercices et expliquer le langage Java aux débutant </li>
+                <li>Assister les Étudiants dans leur projet </li>
+                <li>Prise de parole en public </li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Compétences</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Java</h3>
+              </a>
+              <ul>
+                <li>Frameworks Web (Spring Boot)</li>
+                <li>Outils et gestion de projet (Maven/Gradle)</li>
+                <li>Tests et Qualité du Code (JUnit)</li>
+              </ul>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Base de données</h3>
+              </a>
+              <ul>
+                <li>SQL/PLSQL</li>
+                <li>PostgreSQL</li>
+                <li>Injections SQL</li>
+              </ul>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Web</h3>
+              </a>
+              <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Flask</li>
+                <li>Spring Boot</li>
+                <li>Vaadin</li>
+              </ul>
+              </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Unix/Linux</h3>
+              </a>
+              <ul>
+                <li>Navigation et Gestion du Système de Fichiers</li>
+                <li>Utilisation de la Commande Shell et de Bash Scripting</li>
+                <li>Gestion des Processus</li>
+                <li>Gestion des Utilisateurs et des Groupes</li>
+              </ul>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Conception logicielle</h3>
+              </a>
+              <ul>
+                <li>Git</li>
+                <li>Architecture en Couches et Microservices</li>
+                <li>Modélisation et Analyse des Exigences</li>
+                <li>Methodes SCRUM/Kanban</li>
+                <li>Tests Unitaires et TDD</li>
+                <li>Fondamentaux de l'orienté objet</li>
+                <li>Principes SOLID</li>
+                <li>Patrons GRASP</li>
+                <li>Patrons GoF</li>
+              </ul>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class=""></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Autres</h3>
+              </a>
+              <ul>
+                <li>OCaml</li>
+                <li>C/C++</li>
+                <li>Prolog</li>
+              </ul>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>
+          Ici je vous presente quelques petits projets personnels, académiques et professionel que j'ai réalisé <br>
+          Ils sont tous disponible sur mon github dans le footer.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Tous</li>
+            <li data-filter=".filter-app">Académiques</li>
+            <li data-filter=".filter-product">personnels</li>
+            <li data-filter=".filter-branding">Professionels</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Système de gestion de magasin de détail (Java Spring Boot/Vaadin)</h4>
+                <p>Le projet consiste à créer un logiciel permettant de faciliter la gestion de magasin de détails grâce aux fonctionnalités de gestion des employés et des horaires, de gestion des stocks, le suivi des commandes aisé que des finances.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/iStock-507583006.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Systeme de secour pour les animaux</h4>
+                <p>
+                 Descrisption
+                </p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/photo-encart22.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Centre Sportif (Python)</h4>
+                <p>Le projet consiste à créer un système de gestion d'un centre Sportif, avec la reservation des terrains.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/Réclamation-dun-montant-à-la-compagnie-dassurance-1024x683.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Portefolio (HTML/CSS/JS)</h4>
+                <p>Il s'agit du projet suivant, qui consiste à créer une page web aui va me servire de portefolio.</p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gestion des reclamations d'assurances (Java)</h4>
+                <p>
+                  Nous avons développé un logiciel sur IntelliJ pour calculer les remboursements des réclamations d'assurances de soins de santé. 
+                  Ce logiciel lit un fichier ".json" contenant différents types de contrats (A, B, C, D, ou E) avec des réclamations. 
+                  Chaque réclamation inclut des montants pour divers types de soins, dont certains sont remboursables jusqu'à un pourcentage fixe. 
+                  Le logiciel lit le contrat, calcule le remboursement pour chaque soin, et génère un nouveau fichier ".json" contenant le numéro du client, le mois, et le montant remboursé pour chaque soin.
+                </p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Un projet ? En plein recrutement ? Envie de dire bonjour ?</p>
+        <p>N'hésitez plus, entrons en contact !</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Montréal, Québec</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>+1 (438) 928-1172</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>yaya22niare11@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/yayus22"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/yaya-niar%C3%A9-026991250/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
